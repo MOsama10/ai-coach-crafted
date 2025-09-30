@@ -829,7 +829,7 @@ const Index = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <div className="bg-card p-4 rounded-lg border shadow-subtle">
               <div className="font-semibold">Schedule Workshop</div>
-              <div className="text-sm text-muted-foreground"info@vionex.digital</div>
+              <div className="text-sm text-muted-foreground">info@vionex.digital</div>
             </div>
             <div className="bg-card p-4 rounded-lg border shadow-subtle">
               <div className="font-semibold">Email Us</div>
