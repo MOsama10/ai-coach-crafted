@@ -22,11 +22,11 @@ const ProposalCover = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-lg">
             <div>
               <div className="font-semibold mb-2">Prepared for:</div>
-              <div className="opacity-90">[Client Name]</div>
+              <div className="opacity-90">Yazeed Al Yahya</div>
             </div>
             <div>
               <div className="font-semibold mb-2">Prepared by:</div>
-              <div className="opacity-90">Vionex Technologies</div>
+              <div className="opacity-90">Vionex Digital Solutions</div>
             </div>
             <div>
               <div className="font-semibold mb-2">Date:</div>
@@ -38,7 +38,7 @@ const ProposalCover = () => {
             </div>
             <div>
               <div className="font-semibold mb-2">Project Value:</div>
-              <div className="opacity-90">$150,000 - $250,000</div>
+              <div className="opacity-90">$50,000 - $80,000</div>
             </div>
           </div>
         </div>
