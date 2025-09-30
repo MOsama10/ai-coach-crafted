@@ -15,7 +15,7 @@ const Index = () => {
     {
       phase: "Phase 1",
       title: "AI Prototype & Validation",
-      duration: "4-6 weeks",
+      duration: "4-6 days",
       deliverables: [
         "AI model training and testing",
         "Indistinguishability demo",
@@ -27,7 +27,7 @@ const Index = () => {
     {
       phase: "Phase 2", 
       title: "Core App Development",
-      duration: "8-10 weeks",
+      duration: "8-12 weeks",
       deliverables: [
         "Client mobile app (iOS/Android)",
         "Coach dashboard web platform",
@@ -159,11 +159,11 @@ const Index = () => {
             <div className="space-y-2 text-sm">
               <div className="flex justify-between">
                 <span>Development:</span>
-                <span className="font-semibold">$180,000</span>
+                <span className="font-semibold">$30,000</span>
               </div>
               <div className="flex justify-between">
                 <span>AI Training:</span>
-                <span className="font-semibold">$45,000</span>
+                <span className="font-semibold">$25,000</span>
               </div>
               <div className="flex justify-between">
                 <span>Infrastructure:</span>
@@ -172,7 +172,7 @@ const Index = () => {
               <hr className="border-primary/20" />
               <div className="flex justify-between font-bold">
                 <span>Total Investment:</span>
-                <span>$250,000</span>
+                <span>$80,000</span>
               </div>
             </div>
           </CalloutBox>
@@ -678,7 +678,7 @@ const Index = () => {
             features={[
               {
                 title: "AI & Machine Learning",
-                description: "5+ years developing conversational AI systems with human-like interactions"
+                description: "3+ years developing conversational AI systems with human-like interactions"
               },
               {
                 title: "Fitness Industry Knowledge", 
@@ -707,9 +707,9 @@ const Index = () => {
                 Full-time team of senior developers, AI specialists, and fitness industry experts
               </p>
               <div className="grid grid-cols-2 gap-4 text-xs">
-                <div>• 2 AI Engineers</div>
+                <div>• 7 AI Engineers</div>
                 <div>• 3 Full-Stack Developers</div>
-                <div>• 1 Mobile Specialist</div>
+                <div>• 2 Mobile Specialist</div>
                 <div>• 1 Fitness Industry Consultant</div>
               </div>
             </div>
@@ -736,9 +736,9 @@ const Index = () => {
       <div className="mt-12">
         <StatsGrid 
           stats={[
-            { value: "50+", label: "Apps Delivered", description: "Cross-platform solutions" },
+            { value: "15+", label: "Apps Delivered", description: "Cross-platform solutions" },
             { value: "99.9%", label: "Uptime Record", description: "Production systems" },
-            { value: "15M+", label: "Active Users", description: "Across our platforms" },
+            { value: "3k+", label: "Active Users", description: "Across our products" },
             { value: "4.8/5", label: "Client Rating", description: "Average satisfaction" }
           ]}
         />
@@ -829,15 +829,15 @@ const Index = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <div className="bg-card p-4 rounded-lg border shadow-subtle">
               <div className="font-semibold">Schedule Workshop</div>
-              <div className="text-sm text-muted-foreground">calendly.com/vionex-discovery</div>
+              <div className="text-sm text-muted-foreground"info@vionex.digital</div>
             </div>
             <div className="bg-card p-4 rounded-lg border shadow-subtle">
               <div className="font-semibold">Email Us</div>
-              <div className="text-sm text-muted-foreground">projects@vionex.com</div>
+              <div className="text-sm text-muted-foreground">vio@vionex.digital</div>
             </div>
             <div className="bg-card p-4 rounded-lg border shadow-subtle">
               <div className="font-semibold">Call Direct</div>
-              <div className="text-sm text-muted-foreground">(555) 123-VIONEX</div>
+              <div className="text-sm text-muted-foreground">+20 1098408989</div>
             </div>
           </div>
         </div>
@@ -859,34 +859,34 @@ const Index = () => {
         />
         
         <h2 className="text-3xl font-bold mb-8 bg-gradient-primary bg-clip-text text-transparent">
-          Vionex Technologies
+          Vionex Digtal Solutions
         </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           <div className="bg-card p-6 rounded-lg shadow-subtle border">
             <h3 className="font-semibold mb-4 text-primary">Primary Contact</h3>
             <div className="space-y-2 text-sm">
-              <div>John Smith, Project Director</div>
-              <div>john.smith@vionex.com</div>
-              <div>(555) 123-4567</div>
+              <div>Yousef Zaghloul, CEO</div>
+              <div>yousef.zaghloul@vionex.digital</div>
+              <div>+20 1556916955</div>
             </div>
           </div>
           
           <div className="bg-card p-6 rounded-lg shadow-subtle border">
             <h3 className="font-semibold mb-4 text-primary">Technical Lead</h3>
             <div className="space-y-2 text-sm">
-              <div>Sarah Johnson, CTO</div>
-              <div>sarah.johnson@vionex.com</div>
-              <div>(555) 123-4568</div>
+              <div>Mohamed Osama, CTO</div>
+              <div>mohamed.osama@vionex.digital</div>
+              <div>+20 1098408989</div>
             </div>
           </div>
           
           <div className="bg-card p-6 rounded-lg shadow-subtle border">
             <h3 className="font-semibold mb-4 text-primary">Sales & Partnerships</h3>
             <div className="space-y-2 text-sm">
-              <div>Mike Rodriguez, VP Sales</div>
-              <div>mike.rodriguez@vionex.com</div>
-              <div>(555) 123-4569</div>
+              <div>VP Sales</div>
+              <div>sales@vionex.digital</div>
+              <div></div>
             </div>
           </div>
         </div>
@@ -900,8 +900,8 @@ const Index = () => {
         </div>
         
         <div className="mt-8 text-sm text-muted-foreground">
-          <p>© 2024 Vionex Technologies. All rights reserved.</p>
-          <p>This proposal is confidential and proprietary to Vionex Technologies.</p>
+          <p>© 2025 Vionex Digtal Solutions. All rights reserved.</p>
+          <p>This proposal is confidential and proprietary to Vionex Digtal Solutions.</p>
         </div>
       </div>
     </ProposalSection>
