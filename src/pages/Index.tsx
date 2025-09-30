@@ -137,18 +137,19 @@ const Index = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4 text-primary">Our Solution</h3>
             <p className="text-muted-foreground leading-relaxed">
-              An AI-powered fitness coaching platform that provides personalized training indistinguishable from human coaches. 
-              Our system learns from expert trainers to deliver scalable, 24/7 coaching that adapts to each client's unique needs, 
-              goals, and physical condition.
+              A focused, non-distracting coaching app where trainees get only what they need to hit their goals, 
+              while coaches and partners operate efficiently using AI agents. The AI performs everything inside the app: 
+              plan building, plan updates, and client communications—with outputs that are an identical replica of the 
+              coach's voice, style, and decision logic.
             </p>
           </div>
           
           <div>
             <h3 className="text-xl font-semibold mb-4 text-primary">The Value</h3>
             <p className="text-muted-foreground leading-relaxed">
-              This platform transforms how fitness coaching is delivered, allowing expert trainers to scale their knowledge 
-              to thousands of clients while maintaining quality and personalization. Partners gain a competitive edge with 
-              AI-powered coaching, while clients receive affordable, expert-level guidance.
+              Trainees will have 0% doubt that anyone other than their subscribed coach built/edited the plan or is 
+              chatting with them. This platform enables scalable, personalized coaching through extensible journeys 
+              for clients, coaches, and partners—all powered by indistinguishable AI.
             </p>
           </div>
         </div>
@@ -194,19 +195,19 @@ const Index = () => {
             features={[
               {
                 title: "AI Indistinguishability",
-                description: "Create AI coaching system that 95% of users cannot distinguish from human trainers in blind tests"
+                description: "AI that performs all tasks with 0% trainee doubt—perfectly matching coach voice and style"
               },
               {
-                title: "Multi-Stakeholder Platform", 
-                description: "Seamlessly connect clients, coaches, and partners in a unified ecosystem"
+                title: "Focused Experience", 
+                description: "Non-distracting platform where trainees get only what they need to achieve goals"
               },
               {
-                title: "Scalable Revenue Model",
-                description: "Enable coaches to scale from 1:1 to 1:1000 client relationships while maintaining quality"
+                title: "Extensible Journeys",
+                description: "Scalable, modular paths for clients, coaches, and partners to grow efficiently"
               },
               {
-                title: "Data-Driven Personalization",
-                description: "Leverage workout data, progress tracking, and biometric analysis for optimal results"
+                title: "Automated Operations",
+                description: "AI handles plan building, updates, communications, and revenue distribution"
               }
             ]}
             columns={1}
@@ -244,72 +245,47 @@ const Index = () => {
       subtitle="The foundation of our competitive advantage"
     >
       <div className="max-w-4xl mx-auto">
-        <CalloutBox type="primary">
+        <CalloutBox type="warning">
           <div className="text-center">
-            <h3 className="text-2xl font-bold mb-4 text-primary">AI Must Be Indistinguishable from Human Coaches</h3>
+            <h3 className="text-2xl font-bold mb-4 text-primary">Core Goal: AI Performs Everything</h3>
             <p className="text-lg text-muted-foreground">
-              This is not just a feature—it's the core value proposition that differentiates us from every other fitness app in the market.
+              The AI must handle all plan building, plan updates, and client communications inside the app.
             </p>
           </div>
         </CalloutBox>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
-          <div>
-            <h4 className="text-lg font-semibold mb-4 text-primary">What This Means</h4>
+        <div className="space-y-6 mt-8">
+          <div className="bg-card p-6 rounded-lg border-2 border-primary/20">
+            <h4 className="text-lg font-semibold mb-4 text-primary">Exact Match Standard</h4>
             <FeatureList 
               features={[
                 {
-                  title: "Natural Conversation",
-                  description: "AI responds with human-like empathy, motivation, and coaching intuition"
+                  title: "Identical Replica",
+                  description: "Outputs must be an exact match of the coach's voice, style, and decision logic"
                 },
                 {
-                  title: "Contextual Memory", 
-                  description: "Remembers client preferences, struggles, and progress across all interactions"
+                  title: "Zero Doubt - Plans", 
+                  description: "Trainees have 0% doubt that anyone other than the subscribed coach built/edited the plan"
                 },
                 {
-                  title: "Adaptive Personality",
-                  description: "Matches coaching style to individual client personality and motivation triggers"
+                  title: "Zero Doubt - Communications",
+                  description: "Trainees have 0% doubt that anyone other than the subscribed coach is chatting with them"
                 },
                 {
-                  title: "Emotional Intelligence",
-                  description: "Recognizes client mood, energy levels, and motivation to adjust approach"
+                  title: "Full Autonomy",
+                  description: "AI handles all interactions without requiring human coach intervention"
                 }
               ]}
               columns={1}
             />
           </div>
           
-          <div>
-            <h4 className="text-lg font-semibold mb-4 text-primary">Technical Requirements</h4>
-            <div className="space-y-4">
-              <div className="bg-card p-4 rounded-lg border">
-                <h5 className="font-semibold mb-2">Advanced Language Model</h5>
-                <p className="text-sm text-muted-foreground">Custom-trained LLM on 10,000+ hours of expert coaching sessions</p>
-              </div>
-              
-              <div className="bg-card p-4 rounded-lg border">
-                <h5 className="font-semibold mb-2">Behavioral Analysis</h5>
-                <p className="text-sm text-muted-foreground">Real-time analysis of client communication patterns and preferences</p>
-              </div>
-              
-              <div className="bg-card p-4 rounded-lg border">
-                <h5 className="font-semibold mb-2">Continuous Learning</h5>
-                <p className="text-sm text-muted-foreground">AI improves from every interaction while maintaining coach consistency</p>
-              </div>
-              
-              <div className="bg-card p-4 rounded-lg border">
-                <h5 className="font-semibold mb-2">Quality Assurance</h5>
-                <p className="text-sm text-muted-foreground">Regular blind testing with real users to validate indistinguishability</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div className="mt-8">
           <CalloutBox type="warning">
-            <h4 className="font-semibold mb-2">Critical Success Factor</h4>
-            <p>If clients can easily identify they're talking to AI, the entire value proposition fails. 
-            Every technical decision must be evaluated against this core requirement.</p>
+            <h4 className="font-semibold mb-2">Contract Gate</h4>
+            <p>
+              <strong>No agreement will be signed with any vendor until this indistinguishability is demonstrated 
+              in a prototype and user tests.</strong> This is the non-negotiable foundation of the entire platform.
+            </p>
           </CalloutBox>
         </div>
       </div>
@@ -318,8 +294,8 @@ const Index = () => {
     // Scope of Work - Client Journey
     <ProposalSection
       key="scope-client"
-      title="Scope of Work: Client Journey"
-      subtitle="Seamless experience from subscription to results"
+      title="Scope of Work: Client Journey — Extensible"
+      subtitle="Focused experience from landing to goal achievement"
       backgroundPattern={true}
     >
       <div className="space-y-8">
@@ -327,80 +303,58 @@ const Index = () => {
           <em>[User Journey Flow Diagram Recommended Here]</em>
         </div>
         
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          <div className="bg-card p-6 rounded-lg shadow-subtle border">
-            <h3 className="text-lg font-semibold mb-4 text-primary">Onboarding & Setup</h3>
-            <FeatureList 
-              features={[
-                {
-                  title: "Goal Assessment",
-                  description: "AI-guided questionnaire to understand fitness goals, experience level, and preferences"
-                },
-                {
-                  title: "Health Screening",
-                  description: "Medical history, injury assessment, and physical limitations evaluation"
-                },
-                {
-                  title: "Coach Matching", 
-                  description: "AI pairs client with coaching personality that matches their motivation style"
-                },
-                {
-                  title: "Subscription Plans",
-                  description: "Flexible pricing tiers with different levels of AI coaching intensity"
-                }
-              ]}
-              columns={1}
-            />
-          </div>
-          
-          <div className="bg-card p-6 rounded-lg shadow-subtle border">
-            <h3 className="text-lg font-semibold mb-4 text-primary">Daily Interactions</h3>
-            <FeatureList 
-              features={[
-                {
-                  title: "AI Coaching Chat",
-                  description: "24/7 conversational coaching that feels completely human and personalized"
-                },
-                {
-                  title: "Smart Reminders",
-                  description: "Contextual workout and nutrition reminders based on schedule and progress"
-                },
-                {
-                  title: "Progress Tracking",
-                  description: "Photo uploads, measurements, and performance data with AI analysis"
-                },
-                {
-                  title: "Injury Prevention",
-                  description: "Real-time form feedback and recovery recommendations"
-                }
-              ]}
-              columns={1}
-            />
-          </div>
-          
-          <div className="bg-card p-6 rounded-lg shadow-subtle border">
-            <h3 className="text-lg font-semibold mb-4 text-primary">Advanced Features</h3>
-            <FeatureList 
-              features={[
-                {
-                  title: "Bloodwork Analysis",
-                  description: "Upload lab results for personalized nutrition and supplement recommendations"
-                },
-                {
-                  title: "Exclusive Content",
-                  description: "Access to coach-created workout libraries and educational materials"
-                },
-                {
-                  title: "Community Integration",
-                  description: "Connect with other clients following similar coaches and programs"
-                },
-                {
-                  title: "Wearable Sync",
-                  description: "Integration with fitness trackers for comprehensive health monitoring"
-                }
-              ]}
-              columns={1}
-            />
+        <div className="bg-card p-8 rounded-lg shadow-subtle border">
+          <h3 className="text-xl font-semibold mb-6 text-primary">Client Flow</h3>
+          <div className="space-y-4">
+            <div className="flex items-start gap-3">
+              <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
+                <span className="text-primary font-semibold">1</span>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-1">Landing → Subscription → Download</h4>
+                <p className="text-sm text-muted-foreground">Clear landing page → subscription selection → app download → plan selection → payment</p>
+              </div>
+            </div>
+            
+            <div className="flex items-start gap-3">
+              <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
+                <span className="text-primary font-semibold">2</span>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-1">Smart Intake & AI Plan Generation</h4>
+                <p className="text-sm text-muted-foreground">Post-payment smart intake (2-4 min) → AI designs training (and optional nutrition) from intake data</p>
+              </div>
+            </div>
+            
+            <div className="flex items-start gap-3">
+              <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
+                <span className="text-primary font-semibold">3</span>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-1">Daily Dashboard</h4>
+                <p className="text-sm text-muted-foreground">Home shows plan summary, today's focus, and renewal countdown</p>
+              </div>
+            </div>
+            
+            <div className="flex items-start gap-3">
+              <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
+                <span className="text-primary font-semibold">4</span>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-1">Progress Tracking & Reminders</h4>
+                <p className="text-sm text-muted-foreground">Reminders to log weight/steps/photos; send workout videos to coach</p>
+              </div>
+            </div>
+            
+            <div className="flex items-start gap-3">
+              <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
+                <span className="text-primary font-semibold">5</span>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-1">Injury Detection & Flagging</h4>
+                <p className="text-sm text-muted-foreground">AI collects pain/injury data and flags to coach with suggested actions</p>
+              </div>
+            </div>
           </div>
         </div>
         
@@ -424,110 +378,217 @@ const Index = () => {
     // Scope of Work - Coach Journey
     <ProposalSection
       key="scope-coach"
-      title="Scope of Work: Coach Journey" 
-      subtitle="Empowering trainers to scale their expertise"
+      title="Scope of Work: Coach Journey — Extensible" 
+      subtitle="Efficient tools for coaches and supervisors"
     >
       <div className="space-y-8">
         <div className="text-center text-muted-foreground">
           <em>[Coach Dashboard Mockup Recommended Here]</em>
         </div>
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          <div>
-            <h3 className="text-xl font-semibold mb-6 text-primary">Coach Dashboard</h3>
-            <FeatureList 
-              features={[
-                {
-                  title: "AI Training Interface",
-                  description: "Tools to train AI on coaching style, methodologies, and client interaction preferences"
-                },
-                {
-                  title: "Client Portfolio Management",
-                  description: "Overview of all AI-coached clients with progress summaries and key metrics"
-                },
-                {
-                  title: "Content Creation Tools",
-                  description: "Create workout templates, educational content, and coaching scripts for AI use"
-                },
-                {
-                  title: "Performance Analytics",
-                  description: "Detailed insights into client success rates, engagement, and retention metrics"
-                },
-                {
-                  title: "Revenue Tracking",
-                  description: "Real-time earnings dashboard with subscription and commission breakdowns"
-                },
-                {
-                  title: "Quality Control",
-                  description: "Review AI interactions, provide feedback, and maintain coaching standards"
-                }
-              ]}
-              columns={1}
-            />
-          </div>
-          
-          <div>
-            <h3 className="text-xl font-semibold mb-6 text-primary">Coach Tools & Features</h3>
+        <div className="bg-card p-8 rounded-lg shadow-subtle border">
+          <h3 className="text-xl font-semibold mb-6 text-primary">Coach Features</h3>
+          <div className="space-y-4">
+            <div className="flex items-start gap-3">
+              <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
+                <span className="text-primary font-semibold">•</span>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-1">Dashboard & Task Management</h4>
+                <p className="text-sm text-muted-foreground">Coach dashboard for tasks, due dates, and escalations; tasks auto-generated from supervisors or client requests</p>
+              </div>
+            </div>
             
-            <div className="space-y-6">
-              <div className="bg-card p-6 rounded-lg border shadow-subtle">
-                <h4 className="font-semibold mb-3 text-primary">AI Personality Customization</h4>
-                <p className="text-muted-foreground text-sm mb-3">
-                  Define coaching voice, motivation style, and client interaction approach
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  <span className="bg-primary/10 text-primary px-2 py-1 rounded text-xs">Motivational</span>
-                  <span className="bg-primary/10 text-primary px-2 py-1 rounded text-xs">Analytical</span>
-                  <span className="bg-primary/10 text-primary px-2 py-1 rounded text-xs">Supportive</span>
-                  <span className="bg-primary/10 text-primary px-2 py-1 rounded text-xs">Direct</span>
+            <div className="flex items-start gap-3">
+              <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
+                <span className="text-primary font-semibold">•</span>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-1">Attendance & Check-ins</h4>
+                <p className="text-sm text-muted-foreground">Coach attendance/adherence tracking and meeting check-ins</p>
+              </div>
+            </div>
+            
+            <div className="flex items-start gap-3">
+              <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
+                <span className="text-primary font-semibold">•</span>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-1">Team Templates</h4>
+                <p className="text-sm text-muted-foreground">Team-specific templates (Yazeed Team, Abu Masoud Team, Rehab/Pro, etc.)</p>
+              </div>
+            </div>
+            
+            <div className="flex items-start gap-3">
+              <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
+                <span className="text-primary font-semibold">•</span>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-1">Athlete Summaries & Reports</h4>
+                <p className="text-sm text-muted-foreground">Ready summaries per athlete with monthly reports and trends</p>
+              </div>
+            </div>
+            
+            <div className="flex items-start gap-3">
+              <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
+                <span className="text-primary font-semibold">•</span>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-1">Supervisor Console</h4>
+                <p className="text-sm text-muted-foreground">Supervisor console to triage issues and push updates to partners</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </ProposalSection>,
+
+    // Scope of Work - Partner Journey
+    <ProposalSection
+      key="scope-partner"
+      title="Scope of Work: Partner Journey — Extensible"
+      subtitle="Revenue-generating tools for fitness partners"
+      backgroundPattern={true}
+    >
+      <div className="space-y-8">
+        <div className="bg-card p-8 rounded-lg shadow-subtle border">
+          <h3 className="text-xl font-semibold mb-6 text-primary">Partner Features</h3>
+          <div className="space-y-4">
+            <div className="flex items-start gap-3">
+              <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
+                <span className="text-primary font-semibold">•</span>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-1">Account Onboarding</h4>
+                <p className="text-sm text-muted-foreground">Partner account onboarding with required business/profile data</p>
+              </div>
+            </div>
+            
+            <div className="flex items-start gap-3">
+              <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
+                <span className="text-primary font-semibold">•</span>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-1">Assets Management</h4>
+                <p className="text-sm text-muted-foreground">Assets page: exercise media, voice notes, and specific requests</p>
+              </div>
+            </div>
+            
+            <div className="flex items-start gap-3">
+              <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
+                <span className="text-primary font-semibold">•</span>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-1">AI-Assisted Social Media</h4>
+                <p className="text-sm text-muted-foreground">AI-assisted social media section proposing campaigns per partner</p>
+              </div>
+            </div>
+            
+            <div className="flex items-start gap-3">
+              <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
+                <span className="text-primary font-semibold">•</span>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-1">Analytics & Insights</h4>
+                <p className="text-sm text-muted-foreground">Analytics highlighting standout trainee segments and KPIs</p>
+              </div>
+            </div>
+            
+            <div className="flex items-start gap-3">
+              <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
+                <span className="text-primary font-semibold">•</span>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-1">Revenue Share</h4>
+                <p className="text-sm text-muted-foreground">Automatic monthly revenue-share deduction from the partner account</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </ProposalSection>,
+
+    // Side Utilities
+    <ProposalSection
+      key="utilities"
+      title="Side Utilities — Extensible"
+      subtitle="Additional features to enhance the platform"
+    >
+      <div className="space-y-8">
+        <div className="bg-card p-8 rounded-lg shadow-subtle border">
+          <h3 className="text-xl font-semibold mb-6 text-primary">Platform Utilities</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="space-y-4">
+              <div className="flex items-start gap-3">
+                <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-primary font-semibold">•</span>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-1">Calendar & Reminders</h4>
+                  <p className="text-sm text-muted-foreground">Global calendar and seasonal reminders</p>
                 </div>
               </div>
               
-              <div className="bg-card p-6 rounded-lg border shadow-subtle">
-                <h4 className="font-semibold mb-3 text-primary">Workout Template Builder</h4>
-                <p className="text-muted-foreground text-sm">
-                  Create reusable workout templates with exercise variations, progressions, and modifications
-                </p>
+              <div className="flex items-start gap-3">
+                <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-primary font-semibold">•</span>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-1">Payment Integration</h4>
+                  <p className="text-sm text-muted-foreground">Payments → CRM link; per-partner results files</p>
+                </div>
               </div>
               
-              <div className="bg-card p-6 rounded-lg border shadow-subtle">
-                <h4 className="font-semibold mb-3 text-primary">Client Intervention System</h4>
-                <p className="text-muted-foreground text-sm">
-                  Receive alerts for clients needing human intervention and seamlessly take over conversations
-                </p>
+              <div className="flex items-start gap-3">
+                <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-primary font-semibold">•</span>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-1">Documentation</h4>
+                  <p className="text-sm text-muted-foreground">In-app walkthroughs and documentation</p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="space-y-4">
+              <div className="flex items-start gap-3">
+                <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-primary font-semibold">•</span>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-1">Alumni Reactivation</h4>
+                  <p className="text-sm text-muted-foreground">Alumni contact (3 months post-exit) for reactivation flows</p>
+                </div>
+              </div>
+              
+              <div className="flex items-start gap-3">
+                <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-primary font-semibold">•</span>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-1">Exclusive Content</h4>
+                  <p className="text-sm text-muted-foreground">Exclusive content area per partner to differentiate subscribers</p>
+                </div>
+              </div>
+              
+              <div className="flex items-start gap-3">
+                <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-primary font-semibold">•</span>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-1">Bloodwork Parsing</h4>
+                  <p className="text-sm text-muted-foreground">AI bloodwork parsing and summaries for coaches</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
         
-        <CalloutBox type="success">
-          <h4 className="font-semibold mb-3">Coach Benefits</h4>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div>
-              <h5 className="font-medium mb-2">Revenue Scaling</h5>
-              <p className="text-sm text-muted-foreground">
-                Transform from 1:1 coaching ($50-100/session) to 1:1000 AI coaching with passive income potential
-              </p>
-            </div>
-            <div>
-              <h5 className="font-medium mb-2">Brand Building</h5>
-              <p className="text-sm text-muted-foreground">
-                Build personal brand through AI that represents coaching style to thousands of clients
-              </p>
-            </div>
-            <div>
-              <h5 className="font-medium mb-2">Data Insights</h5>
-              <p className="text-sm text-muted-foreground">
-                Access unprecedented data on what coaching methods work best for different client types
-              </p>
-            </div>
-            <div>
-              <h5 className="font-medium mb-2">Time Freedom</h5>
-              <p className="text-sm text-muted-foreground">
-                Focus on high-value activities while AI handles routine coaching interactions
-              </p>
-            </div>
-          </div>
+        <CalloutBox type="info">
+          <h4 className="font-semibold mb-2">📊 Visual: Platform Ecosystem Diagram</h4>
+          <p className="text-sm">
+            Comprehensive diagram showing how all utilities integrate with client, coach, and partner journeys
+          </p>
         </CalloutBox>
       </div>
     </ProposalSection>,
