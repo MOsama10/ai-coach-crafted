@@ -798,7 +798,7 @@ const Index = () => {
               </div>
               <div className="flex justify-between">
                 <span>AI Prototype Demo:</span>
-                <span className="font-semibold">4-6 weeks</span>
+                <span className="font-semibold">4-6 days</span>
               </div>
               <div className="flex justify-between">
                 <span>Progress Reviews:</span>
